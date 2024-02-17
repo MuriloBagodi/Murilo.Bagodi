@@ -2,6 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants.js";
 import Typewriter from "typewriter-effect";
+import HeroImg from "../../images/Face.jpeg";
+import HeroBgAnimation from "../HeroBgAnimation";
 
 const HeroContainer = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -187,18 +189,41 @@ const ResumeButton = styled.a`
     font-size: 18px;
   }
 `;
+
+const Image = styled.img`
+  width: 100%;
+  position: relative;
+  border-radius: 50%;
+  max-width: 400px;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border: ${({ theme }) => theme.primary} 3px solid;
+
+  @media (max-width: 768px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+
+  @media screen and (max-width: 640px) {
+    max-width: 280px;
+    max-height: 280px;
+  }
+`;
 const Hero = () => {
   return (
     <div id="about">
       <HeroContainer>
-        <HeroBg></HeroBg>
+        <HeroBg>
+          <HeroBgAnimation></HeroBgAnimation>
+        </HeroBg>
         <HeroInnerContainer>
           <HeroLeftContainer>
             <Title>
               Olá, Eu sou o <br /> {Bio.name}
             </Title>
             <TextLoop>
-              Eu Sou um
+              Eu Sou
               <Span>
                 <Typewriter
                   options={{ strings: Bio.roles, autoStart: true, loop: true }}
@@ -210,7 +235,9 @@ const Hero = () => {
               Ver CV
             </ResumeButton>
           </HeroLeftContainer>
-          <HeroRightContainer></HeroRightContainer>
+          <HeroRightContainer>
+            <Image src={HeroImg} alt="Hero" />
+          </HeroRightContainer>
         </HeroInnerContainer>
       </HeroContainer>
     </div>
