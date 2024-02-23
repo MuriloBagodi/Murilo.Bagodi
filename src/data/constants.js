@@ -225,10 +225,10 @@ export const education = [
     id: 1,
     img: "https://s3.amazonaws.com/wpfiap/wp-content/uploads/2017/09/20170915_fiapSchool_share.png",
     school: "FIAP School",
-    date: "Apr 2019 - Apr 2025",
+    date: "Jan 2016 - Dez 2018",
     grade: "7,82",
-    desc: "",
-    degree: "ISC(XII), Science with Computer",
+    desc: "Escola tecninca voltada para area de programação e desenvolvimento",
+    degree: "Ensino médio tecnico",
   },
 ];
 
@@ -248,24 +248,41 @@ export const projects = [
       "C++",
     ],
     category: "Mobile App",
+    image:
+      "https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",
   },
   {
-    id: 9,
+    id: 12,
+    title: "RAC - Sistemas de ar condicionado",
+    date: "Fev 2022 - Mar 2022",
+    description:
+      "Projeto desenvolvido para empresa, no qual foi construido uma landing page responsiva",
+    tags: ["Node.js", "Express Js", "EJS"],
+    category: "Web App",
+    image: "http://racsistema.com.br/img/missao.jpeg",
+  },
+  {
+    id: 13,
+    title: "Escuderia Ferrari - Club Sp",
+    date: "Jul 2021 - Set 2021",
+    description:
+      "Plataforma desenvolvida para os filiados do club onde podem ter atividades com fins não lucrativos apenas para recreação",
+    tags: ["Node.js", "Express Js", "EJS", "MySQL"],
+    category: "Web App",
+    image:
+      "https://www.f1mania.net/wp-content/uploads/2020/07/0001037308_HiRes_0ASKBGH0EN7QF503UCBNL0MW6A9S.jpg",
+  },
+  {
+    id: 14,
     title: "HubLaser",
     date: "jan 2024 - Hoje",
     description:
       "Ajudando empresas e pessoas fisicas a terem seu corte a lease de precisão da forma mais descomplicada e com segurança.",
-    tags: [
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-    ],
+    tags: ["Eslint", "Next Js", "MongoDb", "Node Js", "Express Js"],
     category: "Web App",
     github: "https://github.com/MuriloBagodi/HubLaser",
+    image:
+      "https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",
   },
 ];
 

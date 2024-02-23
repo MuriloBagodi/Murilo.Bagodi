@@ -75,8 +75,9 @@ const Experience = () => {
   return (
     <Container id="experience">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Experiencias</Title>
         <Desc>
+          Aqui estão minhas experiencias como desenvolvedor Full-Stack
         </Desc>
         <TimelineSection>
           <Timeline>
