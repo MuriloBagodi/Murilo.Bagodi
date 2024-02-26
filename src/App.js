@@ -8,6 +8,8 @@ import Education from "./components/Education";
 import { BrowserRouter } from "react-router-dom";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -17,6 +19,7 @@ const Body = styled.div`
 `;
 
 const Wrapper = styled.div`
+  padding-bottom: 200px;
   background: linear-gradient(
       38.73deg,
       rgba(204, 0, 187, 0.15) 0%,
@@ -43,7 +46,9 @@ function App() {
             <Experience />
             <Projects />
             <Education />
+            <Contact />
           </Wrapper>
+          <Footer />
         </Body>
       </BrowserRouter>
     </ThemeProvider>
