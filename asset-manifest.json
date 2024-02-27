@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%20//murilobagodi.github.io/murilo.bagodi/static/css/main.6d6bee20.css",
+    "main.js": "/%20//murilobagodi.github.io/murilo.bagodi/static/js/main.bd06313a.js",
+    "static/media/Face.jpeg": "/%20//murilobagodi.github.io/murilo.bagodi/static/media/Face.fef0802205bc3dd1be0c.jpeg",
+    "index.html": "/%20//murilobagodi.github.io/murilo.bagodi/index.html",
+    "main.6d6bee20.css.map": "/%20//murilobagodi.github.io/murilo.bagodi/static/css/main.6d6bee20.css.map",
+    "main.bd06313a.js.map": "/%20//murilobagodi.github.io/murilo.bagodi/static/js/main.bd06313a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d6bee20.css",
+    "static/js/main.bd06313a.js"
+  ]
+}
