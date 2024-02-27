@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 
@@ -125,21 +125,18 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const form = useRef();
-
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
+        "service_q06xpkj",
+        "template_qg28nxb",
+        e.target,
+        "dcaVOEtAbZsyCryWH"
       )
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
         },
         (error) => {
           alert(error);
@@ -152,7 +149,8 @@ const Contact = () => {
       <Wrapper>
         <Title>Contact</Title>
         <Desc>
-          Feel free to reach out to me for any questions or opportunities!
+          Sinta-se livre para mandar uma proposta ou email para entrar em
+          contato comigo
         </Desc>
         <ContactForm onSubmit={handleSubmit}>
           <ContactTitle>Envie sua proposta 🚀</ContactTitle>
