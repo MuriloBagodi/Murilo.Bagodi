@@ -95,7 +95,7 @@ const Projects = () => {
   `;
   const [toggle, setToggle] = useState("all");
   return (
-    <Container id="Projects">
+    <Container id="projects">
       <Wrapper>
         <Title>Projetos</Title>
         <Desc
@@ -125,13 +125,6 @@ const Projects = () => {
             onClick={() => setToggle("android app")}
           >
             ANDROID APP'S
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
-          >
-            MACHINE LEARNING
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>

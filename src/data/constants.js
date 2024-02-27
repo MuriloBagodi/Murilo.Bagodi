@@ -247,7 +247,7 @@ export const projects = [
       "Arduino IOT",
       "C++",
     ],
-    category: "Mobile App",
+    category: "android app",
     image:
       "https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",
   },
@@ -258,7 +258,7 @@ export const projects = [
     description:
       "Projeto desenvolvido para empresa, no qual foi construido uma landing page responsiva",
     tags: ["Node.js", "Express Js", "EJS"],
-    category: "Web App",
+    category: "web app",
     image: "http://racsistema.com.br/img/missao.jpeg",
   },
   {
@@ -268,7 +268,7 @@ export const projects = [
     description:
       "Plataforma desenvolvida para os filiados do club onde podem ter atividades com fins não lucrativos apenas para recreação",
     tags: ["Node.js", "Express Js", "EJS", "MySQL"],
-    category: "Web App",
+    category: "web app",
     image:
       "https://www.f1mania.net/wp-content/uploads/2020/07/0001037308_HiRes_0ASKBGH0EN7QF503UCBNL0MW6A9S.jpg",
   },
@@ -279,7 +279,7 @@ export const projects = [
     description:
       "Ajudando empresas e pessoas fisicas a terem seu corte a lease de precisão da forma mais descomplicada e com segurança.",
     tags: ["Eslint", "Next Js", "MongoDb", "Node Js", "Express Js"],
-    category: "Web App",
+    category: "web App",
     github: "https://github.com/MuriloBagodi/HubLaser",
     image:
       "https://miro.medium.com/v2/resize:fit:820/1*y7ZgcnbxdF4aDgh-XaS1-Q.png",

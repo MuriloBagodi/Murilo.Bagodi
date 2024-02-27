@@ -136,7 +136,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Message Sent");
+          alert("Messagem Enviada");
         },
         (error) => {
           alert(error);
@@ -145,9 +145,9 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
-        <Title>Contact</Title>
+        <Title>Contato</Title>
         <Desc>
           Sinta-se livre para mandar uma proposta ou email para entrar em
           contato comigo

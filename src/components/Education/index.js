@@ -52,9 +52,9 @@ const Desc = styled.div`
 
 const Education = () => {
   return (
-    <Container id="Education">
+    <Container id="education">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Educação</Title>
         <Desc
           style={{
             marginBottom: "40px",
