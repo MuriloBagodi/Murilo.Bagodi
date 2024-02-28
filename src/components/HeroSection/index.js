@@ -121,6 +121,8 @@ const TextLoop = styled.div`
     font-size: 22px;
     line-height: 48px;
     margin-bottom: 16px;
+    flex-direction: column;
+    width: 46vh;
   }
 `;
 
@@ -160,18 +162,7 @@ const ResumeButton = styled.a`
   font-size: 20px;
   font-weight: 600;
   transition: all 0.2s ease-in-out !important;
-  background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
@@ -180,8 +171,7 @@ const ResumeButton = styled.a`
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px;
-    filter: brightness(1);
+    box-shadow: rgb(133, 76, 230) 0px 0px 20px};
   }
 
   @media (max-width: 640px) {

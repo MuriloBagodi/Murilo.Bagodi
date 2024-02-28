@@ -191,7 +191,7 @@ const Navbar = () => {
           <NavLink href="#contact">Contato</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GithubButton>GitHub Profile</GithubButton>
+          s<GithubButton>Perfil GitHub</GithubButton>
         </ButtonContainer>
         {isOpen && (
           <MobileMenu isOpen={isOpen}>
@@ -201,7 +201,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
             >
-              About
+              Sobre
             </MobileMenuLink>
             <MobileMenuLink
               href="#skills"
@@ -217,7 +217,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
             >
-              Experience
+              Experiencia
             </MobileMenuLink>
             <MobileMenuLink
               href="#projects"
@@ -225,7 +225,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
             >
-              Projects
+              Projetos
             </MobileMenuLink>
             <MobileMenuLink
               href="#education"
@@ -233,7 +233,7 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}
             >
-              Education
+              Educação
             </MobileMenuLink>
             <MobileMenuLink
               href="#contact"
@@ -253,7 +253,7 @@ const Navbar = () => {
               href="/"
               target="_blank"
             >
-              Github Profile
+              Perfil GitHub
             </GithubButton>
           </MobileMenu>
         )}

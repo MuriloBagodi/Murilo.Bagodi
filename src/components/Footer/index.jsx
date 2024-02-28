@@ -80,6 +80,7 @@ function Footer() {
   const CopyRight = styled.p`
     font-size: 14px;
     color: ${({ theme }) => theme.text_primary};
+    text-align: center;
   `;
   const SocialIcons = styled.div`
     margin-top: 1rem;

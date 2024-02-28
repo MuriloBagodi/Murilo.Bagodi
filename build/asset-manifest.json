@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/murilo.bagodi/static/css/main.6d6bee20.css",
-    "main.js": "/murilo.bagodi/static/js/main.b42d3c27.js",
-    "static/media/Face.jpeg": "/murilo.bagodi/static/media/Face.fef0802205bc3dd1be0c.jpeg",
-    "index.html": "/murilo.bagodi/index.html",
-    "main.6d6bee20.css.map": "/murilo.bagodi/static/css/main.6d6bee20.css.map",
-    "main.b42d3c27.js.map": "/murilo.bagodi/static/js/main.b42d3c27.js.map"
+    "main.css": "/Murilo.Bagodi/static/css/main.6d6bee20.css",
+    "main.js": "/Murilo.Bagodi/static/js/main.f25a917c.js",
+    "static/media/Face.jpeg": "/Murilo.Bagodi/static/media/Face.fef0802205bc3dd1be0c.jpeg",
+    "index.html": "/Murilo.Bagodi/index.html",
+    "main.6d6bee20.css.map": "/Murilo.Bagodi/static/css/main.6d6bee20.css.map",
+    "main.f25a917c.js.map": "/Murilo.Bagodi/static/js/main.f25a917c.js.map"
   },
   "entrypoints": [
     "static/css/main.6d6bee20.css",
-    "static/js/main.b42d3c27.js"
+    "static/js/main.f25a917c.js"
   ]
 }
