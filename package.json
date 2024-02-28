@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https: //murilobagodi.github.io/murilo.bagodi",
+  "homepage": "https://murilobagodi.github.io/murilo.bagodi",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
