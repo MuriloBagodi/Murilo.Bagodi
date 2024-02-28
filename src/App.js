@@ -1,4 +1,4 @@
-import "./App.css";
+import "./index.css";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Theme";
 import Navbar from "./components/Navbar";
