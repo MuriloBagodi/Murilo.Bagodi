@@ -1,7 +1,7 @@
 {
   "name": "murilobagodi",
   "version": "0.1.0",
-  "homepage": "https://murilobagodi.github.io/murilo.bagodi",
+  "homepage": "https://MuriloBagodi.github.io/Murilo.Bagodi",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
