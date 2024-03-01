@@ -171,7 +171,7 @@ const ResumeButton = styled.a`
   &:hover {
     transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: rgb(133, 76, 230) 0px 0px 20px};
+    box-shadow: rgb(133, 76, 230) 0px 0px 20px;
   }
 
   @media (max-width: 640px) {
