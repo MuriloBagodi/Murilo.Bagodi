@@ -250,7 +250,7 @@ const Navbar = () => {
                 color: "white",
                 width: "max-content",
               }}
-              href="/"
+              href="https://github.com/MuriloBagodi"
               target="_blank"
             >
               Perfil GitHub
